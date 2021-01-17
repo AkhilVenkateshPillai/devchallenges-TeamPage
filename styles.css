@@ -1,28 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
 body{
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     width: 75%;
     margin: auto;
 }
 
-.tname{
-    position: absolute;
+.teammates{
+    display: inline-block;
+    margin: 0 65px;
+    margin-top: 100px;
+    font-family: Poppins;
+    font-style: normal;
 }
 
-.desig{
-    position: absolute;
-}
+ .desig{
+
+    position: relative;
+    top:280px;
+    left:15px;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 16px;
+    color: #000000;
+    transform-origin: right;
+    transform:rotate(90deg);
+    text-align: start;
+    
+    }
+
 
 img{
-
-    margin: 70px;
     width:270px;
 }
 
 .container-two{
+  
 
-    text-align: center;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 
 }
+
+.alt{
+    position: relative;
+    top: 120px;
+}
+
+.container-one{
+    
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.header-title{
+    margin: 60px auto auto 0;
+}
+.header-content{
+    width: 35%;
+    margin-top: 60px;
+    font-family: Poppins;
+    font-style: normal;
+    line-height: 27px;
+}
+
+p{
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+}
+
+h2{
+    
+font-family: PT Serif;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+letter-spacing: -0.045em;
+}
+
+h3{
+
+font-weight: 600;
+font-size: 18px;
+
+}
+
+
+
+footer{
+margin: 300px auto 100px ;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+
+color: #A9A9A9;
+}
+
+
+@media screen and (max-width:1400px) {
+    .container-one, .header-content,.header-title {
+        width: 100%;
+        display: block;
+    }
+
+    .container-two{
+       width: 100%;
+        display: flex;
+    }
+
+    img{
+        width: 80%;
+    }
+
+    .alt{
+        top:0;
+    }
+
+    h3{
+
+        font-weight: 600;
+        font-size: 15px;
+        
+        }
+        p{
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 27px;
+            }    
+
+    
+
+    .teammates{
+        width: 45%;
+        margin: 25px 5px;
+    }
+
+    .desig{
+
+        position: relative;
+        top:482px;
+        left:-62px;
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 16px;
+        color: #000000;
+        transform-origin: right;
+        transform:rotate(90deg);
+        
+        
+        }
+
+    .res{
+        position: relative;
+        top: 50px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .desig{
+
+        position: relative;
+        top:419px;
+        left:-42px;
+        
+        }
+
+}
+
+  @media screen and (max-width: 1000px) {
+    .desig{
+
+        position: relative;
+        top:346px;
+        left:-52px;
+        
+        }
+
+}
+@media screen and (max-width: 900px) {
+    .desig{
+
+        position: relative;
+        top:312px;
+        left:-42px;
+        
+        }
+
+}
+
+  @media screen and (max-width: 800px) {
+    .desig{
+
+        position: relative;
+        top:279px;
+        left:-42px;
+        
+        }
+
+}
+@media screen and (max-width: 700px) {
+    .desig{
+
+        position: relative;
+        top:245px;
+        left:-32px;
+        
+        }
+
+}
+
+@media screen and (max-width: 600px) {
+    .desig{
+
+        position: relative;
+        top:209px;
+        left:-22px;
+        
+        }
+
+}
+
+@media screen and (max-width: 450px) {
+    .desig{
+
+        position: relative;
+        top:179px;
+        left:-12px;
+        
+        }
+
+}
+
+@media screen and (max-width: 400px) {
+    .desig{
+
+        position: relative;
+        top:145px;
+        left:-12px;
+        
+        }
+
+}
+
+@media screen and (max-width: 300px) {
+    .desig{
+
+        position: relative;
+        top:109px;
+        left:-2px;
+        
+        }
+
+}
+
