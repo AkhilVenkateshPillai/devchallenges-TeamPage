@@ -1,0 +1,28 @@
+body{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+}
+
+.tname{
+    position: absolute;
+}
+
+.desig{
+    position: absolute;
+}
+
+img{
+
+    margin: 70px;
+    width:270px;
+}
+
+.container-two{
+
+    text-align: center;
+
+}
